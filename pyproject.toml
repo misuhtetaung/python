@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cdcfix"
+version = "0.1.0"
+description = ""
+authors = ["Mi Su <misuhtethtetaung@yomabank.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyotp = "^2.8.0"
+qrcode = "^7.4"
+oracledb = "^1.2.2"
+opencv-python = "^4.7.0.68"
+segno = "^1.5.2"
+pillow = "^9.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
